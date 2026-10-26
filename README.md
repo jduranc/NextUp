@@ -50,13 +50,17 @@ Your schedule belongs to you. NextUp stores your data locally and in your privat
 
 ---
 
-### 💎 NEXTUP PRO
+### 💎 NEXTUP PRO & SHARED ECOSYSTEM ACCESS
 
-Upgrade to NextUp Pro to get the most out of your countdowns:
-- Unlimited Medium and Large Home Screen widgets
-- Full iCloud sync across all your Apple devices
-- Unlimited Apple Calendar event imports
-- 100% ad-free experience
+One subscription, complete access across your utility suite. Upgrading to NextUp Pro unlocks premium features in NextUp as well as Pro capabilities across our companion productivity applications:
+
+- **Universal App Access**: A single active subscription automatically unlocks Pro features and unblocks premium capabilities across our shared ecosystem of apps.
+- **Unlimited Home & Lock Screen Widgets**: Place unlimited Medium and Large widgets across your devices.
+- **Full iCloud Sync**: Seamlessly sync events and countdowns between iPhone, iPad, and Apple Watch.
+- **Unlimited Calendar Imports**: Convert as many events, flights, and meetings into countdowns as you need.
+- **100% Ad-Free**: Enjoy a clean, undisturbed, and focused experience.
+
+*Subscriptions are linked to your Apple ID and automatically shared across supported companion apps on your devices.*
 
 ---
 
