@@ -1,6 +1,6 @@
-# App Store Listing: NextUp: Big Day Countdown
+# NextUp: Big Day Countdown
 
-## Never miss a moment that matters. Track vacations, birthdays, holidays, and milestones with customizable full-bleed countdown cards, Lock & Home Screen widgets, and Apple Watch!
+Never miss a moment that matters. Track vacations, birthdays, holidays, and milestones with customizable full-bleed countdown cards, Lock & Home Screen widgets, and Apple Watch!
 
 ## Count down to the moments that make life extraordinary.
 
