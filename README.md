@@ -1,57 +1,70 @@
-# iBorder — Border Wait Times
+# App Store Listing: NextUp: Big Day Countdown
 
-**iBorder** makes international border crossing simple, fast, and predictable. 
-- Never get stuck in unexpected border lines again.
-- Border wait times, lane breakdowns, live traffic cameras, and historical wait time trends — all in one powerful app.
-- Plan your crossing with confidence across all major **US–Mexico (🇲🇽)** and **US–Canada (🇨🇦)** ports of entry.
+## Never miss a moment that matters. Track vacations, birthdays, holidays, and milestones with customizable full-bleed countdown cards, Lock & Home Screen widgets, and Apple Watch!
+
+## Count down to the moments that make life extraordinary.
+
+Whether you’re planning a dream vacation to Tokyo, anticipating a milestone birthday, tracking kickoff for championship finals, counting down to Christmas morning, or hitting personal goals, **NextUp** keeps what matters most front and center.
+
+NextUp blends minimalist aesthetics with glanceable, customizable countdown cards, rich Home & Lock Screen widgets, and an Apple Watch companion app.
+
+### ✨ KEY FEATURES
+
+• **Stunning Visual Countdown Cards**  
+Every milestone is highlighted with handcrafted, minimalist vector artwork paired with 16 adaptable theme colors that look crisp in both Light and Dark Mode.
+
+• **16 Tailored Event Categories**  
+Organize every area of your life with dedicated categories and smart icon badges:
+- 🏖️ Vacation & ✈️ Trip
+- 🎂 Birthday & 🎉 Party
+- 🎄 Holiday & 💖 Anniversary
+- 🎓 Graduation & 🎸 Concert
+- 🏆 Goal & ⚽ Sports
+- 🎮 Games & 💻 Tech
+- 💳 Finance, 🛍️ Shopping & 🌟 Personal Milestones
+
+• **Apple Watch Companion App**  
+Check what’s next right from your wrist. View your closest upcoming events sorted automatically by proximity, complete with live second-by-second updates, target dates, and category badges.
+
+• **Multi-Size Home & Lock Screen Widgets**  
+Bring your countdowns straight to your device screens:
+- **Small Widget (`systemSmall`)**: Spotlight your closest event with vibrant color accents and days remaining.
+- **Medium Widget (`systemMedium`)**: View your top 3 upcoming events side-by-side.
+- **Large Widget (`systemLarge`)**: Features a bold hero countdown banner alongside your next 7 milestones.
+- **Lock Screen & StandBy**: Circular, Rectangular, and Inline accessory widgets for instant updates at a glance.
+
+• **One-Tap Apple Calendar Import**  
+Turn existing calendar entries—flights, doctor visits, birthdays, and holidays—into beautiful countdowns instantly with smart category and emoji suggestions.
+
+• **Smart Notifications & Flexible Time Units**  
+Set timely alerts on the big day or 1 to 30 days, weeks, or months in advance. Choose to count down in days, hours, and minutes—or count working days only.
+
+• **Past Events & Anniversaries (Count-Up)**  
+Celebrate how far you’ve come. NextUp automatically flips completed milestones into count-up trackers so you can celebrate days together, sobriety milestones, or career achievements.
+
+• **Seamless iCloud Synchronization**  
+Keep your countdowns perfectly synchronized across your iPhone, iPad, and Apple Watch with automatic conflict resolution.
+
+• **Private & Local-First**  
+Your schedule belongs to you. NextUp stores your data locally and in your private Apple iCloud container. No account creation, no analytics tracking your personal events, and no data harvesting.
 
 ---
 
-### ⏱️ Border Wait Time Estimates
-Get regular crossing time updates aggregated directly from official U.S. Customs and Border Protection (CBP) reports.
-- **Lane Breakdowns:** Reported wait times for **Standard**, **Ready Lane**, and **SENTRI / NEXUS / FAST**.
-- **Travel Modes:** Dedicated metrics for **Passenger Vehicles**, **Pedestrians**, and **Commercial Cargo**.
-- **Important Disclaimer:** All wait times are estimates provided for general travel planning based on available public reports and are not guaranteed to be real-time. Actual crossing conditions may fluctuate due to traffic volume, secondary inspections, and lane changes.
+### 💎 NEXTUP PRO
 
-### 📹 Live Border Cameras & Video Feeds
-Inspect the border lines with your own eyes before you drive. View live webcam feeds and snapshots at busy ports (San Ysidro, Otay Mesa, Calexico, El Paso, Laredo, Nogales, and more).
-
-### 📲 Live Activities & Dynamic Island (iOS)
-Keep an eye on current border wait times right from your **Lock Screen** and **Dynamic Island** without having to unlock your phone or reopen the app.
-
-### ⌚ Apple Watch Smart Stack (iOS)
-Check border wait times right on your wrist with Apple Watch Smart Stack support.
-
-### 📊 Historical Trends & 24-Hour Charts
-Avoid peak congestion hours. Explore visual 24-hour crossing distributions and day-of-the-week historical averages to find the best time to cross.
-
-### 🔔 Custom Wait Time Alerts & Notifications
-Set personalized wait time threshold alarms. Receive push notifications when reported wait times drop below your preferred target.
-
-### 💵 Currency Exchange Calculator
-Track updated **USD / MXN** exchange rates with an interactive currency converter to help plan your purchases and travel expenses.
-
-### 🗺️ Interactive Maps & Direction Navigation
-Instantly view port locations, traffic conditions, and get one-tap directions via **Apple Maps** or **Google Maps**.
+Upgrade to NextUp Pro to get the most out of your countdowns:
+- Unlimited Medium and Large Home Screen widgets
+- Full iCloud sync across all your Apple devices
+- Unlimited Apple Calendar event imports
+- 100% ad-free experience
 
 ---
 
-### 💎 iBorder Pro (iOS) — Premium Features
-Upgrade to **iBorder Pro** for the ultimate crossing experience:
-- **100% Ad-Free:** Enjoy an uninterrupted, clean interface.
-- **Lock Screen Live Activities:** Glanceable border wait times on Dynamic Island and Lock Screen.
-
-#### Available Subscriptions:
-- **iBorder Pro (Individual — Annual):** for personal access across your devices.
-- **iBorder Pro (Family — Annual):** with support for **Apple Family Sharing** for up to 5 family members.
-
-*(Note: Apple Family Sharing and ecosystem shared subscriptions require an active, signed-in iCloud account on your device).*
-
----
+**Compatibility:** Requires iOS 17.0 or later, iPadOS 17.0 or later, and watchOS 10.0 or later.
 
 ### 📲 Download Now
 
-Get iBorder today on the App Store:
+Get NextUp today on the App Store:
 
 [![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/apple-store/id1518675459?pt=95940123&ct=web&mt=8)
 
@@ -61,5 +74,5 @@ Get iBorder today on the App Store:
 
 ### 📜 Legal & Policies
 
-- See our [Privacy Policy](https://jduranc.github.io/iBorder/docs/privacy-policy) for details.
-- See our [Terms and Conditions](https://jduranc.github.io/iBorder/docs/terms-and-conditions) for details.
+- See our [Privacy Policy](https://jduranc.github.io/NextUp/docs/privacy-policy) for details.
+- See our [Terms and Conditions](https://jduranc.github.io/NextUp/docs/terms-and-conditions) for details.
