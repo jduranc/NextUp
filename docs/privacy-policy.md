@@ -1,96 +1,114 @@
+### 📜 Privacy Policy
+
 # Privacy Policy
 
-**Last Updated:** September 26, 2026
+**Last Updated:** November 8, 2026
 
-At **iBorder** (“we,” “our,” or “us”), we respect and prioritize your personal privacy. This Privacy Policy outlines our practices regarding data collection, usage, and disclosure when you download, install, and use the iBorder mobile application on iOS (collectively, the “Services”).
+At **NextUp** (“we,” “our,” or “us”), we believe that keeping track of life’s most important milestones should never come at the expense of your personal privacy.
 
----
-
-### Core Privacy Commitments
-
-- **No Sale of Personal Data:** We never sell, rent, monetize, or trade your personal information to data brokers or third parties.
-- **On-Device Proximity Calculation:** Location data is evaluated locally on your device solely to calculate distance to border ports. We do not track your journeys or store your GPS history.
-- **Secure Purchases:** All payments and subscriptions are processed by Apple Inc. through In-App Purchases; we never receive or store your payment card numbers, billing addresses, or banking details.
-- **Ad-Free Option:** While the free version utilizes standard banner ads to support service costs, subscribers to iBorder Pro enjoy a completely ad-free experience with zero advertising trackers.
+This Privacy Policy explains how NextUp handles data across our iOS, iPadOS, and watchOS applications and related widgets (collectively, the “Services”).
 
 ---
 
-### 1. Information We Collect and Process
+### Core Privacy Principles
 
-#### 1.1 Location Data (Optional)
-- **Purpose:** If you grant location access, iBorder uses iOS `CoreLocation` strictly while the app is in use to calculate your linear distance to border crossings and automatically sort ports by proximity.
-- **On-Device Only:** Location coordinates are processed entirely on your device. We do not transmit, record, or store your GPS coordinates on external servers.
-- **Control:** Location permissions are optional. You can grant, alter, or revoke location access at any time via **Settings > Privacy & Security > Location Services > iBorder**.
-
-#### 1.2 Purchases, Subscriptions & iCloud Account Requirement
-- **In-App Purchases:** Premium subscriptions (**iBorder Pro Individual** and **iBorder Pro Family**) are fulfilled and billed by Apple through StoreKit. Apple provides anonymous, cryptographically signed receipts to verify active entitlement status.
-- **iCloud Account Requirement for Shared Subscriptions & Family Sharing:**
-  > [!IMPORTANT]
-  > **Active iCloud Account Required:**
-  > - **Apple Family Sharing:** Accessing family subscription privileges requires an **active Apple ID / iCloud account** with Family Sharing configured, as Apple verifies family membership via iCloud services.
-  > - **Shared Ecosystem Subscriptions:** If you participate in cross-app shared subscriptions across our developer ecosystem, an **active iCloud account** is required on your device.
-
-#### 1.3 Notifications & Live Activities (Optional)
-- **Push Notification Tokens:** If you enable crossing alerts, your Apple Push Notification service (APNs) device token is registered solely to dispatch automated wait time threshold notifications and CBP synchronization updates.
-- **Live Activities:** Lane wait times on the Dynamic Island and Lock Screen are displayed through Apple’s `ActivityKit`. These activities operate locally without persistent external tracking.
-
-#### 1.4 Technical Telemetry & Diagnostics
-We collect aggregated, non-personally identifiable diagnostic telemetry through **Firebase Analytics and Firebase Crashlytics** (provided by Google LLC):
-- **Crash Diagnostics:** Stack traces, memory state, and error logs when the app encounters unexpected crashes or network parsing errors.
-- **Device Metadata:** Device model (e.g., iPhone 15), operating system version (e.g., iOS 18), app build version, and system language.
-- **Feature Performance:** Aggregated usage statistics (e.g., screen views, preferred crossing lanes, CBP sync latency) to maintain high availability and optimize network performance.
+- **No Data Selling:** We do not sell, rent, monetize, or trade your personal information or countdown events to third parties or data brokers. Ever.
+- **Zero Access to Your Events & Reminders:** We do not—and cannot—view, read, collect, or store your countdown titles, notes, dates, tags, or imported calendar items on our servers.
+- **Local-First & Private Sync:** Your events are saved directly on your device. When synchronization is enabled, it transfers securely through your personal Apple iCloud account via CloudKit/CoreData, never touching private developer servers.
+- **Transparent Advertising Disclosures:** The free version of NextUp displays advertisements served by Google AdMob. While NextUp itself collects no personal tracking data, Google AdMob may collect and process device-level identifiers to serve and measure ads in accordance with Google's policies.
 
 ---
 
-### 2. Advertising (Free Tier) & App Tracking Transparency
+### 1. Information We Do NOT Collect
 
-- **Free Tier Ads:** Users on the free version of iBorder may see banner and inline advertisements served via **Google Mobile Ads (AdMob)**.
-- **App Tracking Transparency (ATT):** In compliance with Apple’s guidelines, iBorder requests permission before any tracking identifier (IDFA) is used for personalized advertising. You may decline tracking without losing access to standard features.
-- **Ad-Free for Pro Subscribers:** Subscribing to **iBorder Pro** removes all third-party advertisements and disables ad-network SDKs during your active subscription period.
+NextUp is built on a local-first architecture and native Apple frameworks:
 
----
-
-### 3. Third-Party Service Providers
-
-iBorder integrates with reputable third-party SDKs strictly necessary for operations:
-
-| Provider | Purpose | Privacy Policy |
-| :--- | :--- | :--- |
-| **Apple Inc.** | App distribution, StoreKit in-app purchases, iCloud Family Sharing validation, and APNs notification delivery. | [Apple Privacy Policy](https://www.apple.com/legal/privacy/) |
-| **Google LLC (Firebase)** | Anonymous crash reporting (Crashlytics), remote configuration, and technical analytics. | [Google Privacy Policy](https://policies.google.com/privacy) |
-| **Google LLC (AdMob)** | Displays non-intrusive advertisements for free-tier users. | [Google Ads Privacy](https://policies.google.com/technologies/ads) |
-| **Google Maps SDK** | Provides embedded map views and route direction visualization (when selected). | [Google Maps Privacy](https://policies.google.com/privacy) |
+- **No Event Content Access:** When you create countdowns, count-ups, reminders, or tags, that data is stored locally within sandboxed on-device storage and shared App Group storage (for Lock Screen, Home Screen, and Apple Watch widgets). We have no access to your event names, target dates, or personal notes.
+- **No Calendar Data Harvesting:** If you choose to import events from Apple Calendar, access is requested via Apple’s native `EventKit` framework. All processing occurs entirely on-device; we never extract, upload, or transmit your calendar database to external servers.
+- **No Cloud Data Snooping:** If you use NextUp Pro’s iCloud sync, your countdown data syncs privately across your iPhone, iPad, and Apple Watch through Apple’s encrypted iCloud infrastructure. We maintain no external databases containing your synchronized events.
+- **No Location Tracking:** NextUp does not request, collect, or monitor your GPS coordinates or physical location.
+- **No Financial or Payment Data:** Upgrades to NextUp Pro and in-app purchases are handled exclusively by Apple via the App Store. We never receive or store your credit card details, bank information, or billing address.
 
 ---
 
-### 4. Data Retention & Security
+### 2. Third-Party Advertising (Google AdMob)
 
-- **Local Storage:** Your selected border crossings, custom alert thresholds, lane filter preferences, and cached wait times are saved locally in your iPhone’s secure sandboxed storage. Deleting the application erases all locally stored preferences.
-- **Retention of Telemetry:** Anonymous error logs and performance statistics collected via Firebase automatically expire in accordance with Firebase's standard retention policies (typically 90 to 365 days).
-- **Security:** All communications between iBorder and data servers (CBP feeds, Firebase, exchange rate sources) use encrypted Transport Layer Security (HTTPS / TLS 1.3).
+The free version of NextUp uses **Google AdMob** to display mobile advertisements. NextUp Pro subscribers receive a 100% ad-free experience.
 
----
+#### What We Collect vs. What Google May Collect
+- **NextUp does NOT collect or store your advertising data:** We do not store ad identifiers, personal profiles, or advertising history on our servers.
+- **Data collected and processed by Google AdMob:** When ads are requested or displayed, Google AdMob’s Software Development Kit (SDK) may automatically collect and process certain device and interaction data to serve, measure, and protect against fraudulent ad activity. This information may include:
+  - **Device Identifiers:** IP address, mobile advertising identifiers (such as Apple's Identifier for Advertisers / IDFA, subject to your tracking permissions), or unique device IDs.
+  - **Usage & Interaction Data:** Ad views, clicks, impressions, and app interaction data related to ad performance.
+  - **Diagnostic Data:** Ad load times, error logs, and performance metrics.
 
-### 5. Your Rights & Privacy Choices
-
-- **Location Permissions:** Revoke or adjust location precision anytime via **Settings > Privacy & Security > Location Services > iBorder**.
-- **Notification Permissions:** Enable or disable crossing alerts anytime via **Settings > Notifications > iBorder**.
-- **Tracking Permissions:** Toggle tracking authorization at **Settings > Privacy & Security > Tracking > iBorder**.
-- **Subscription Management:** View, modify, or cancel your auto-renewable subscription at any time through **Settings > Apple ID > Subscriptions**.
-
----
-
-### 6. Changes to This Privacy Policy
-
-We may periodically revise this Privacy Policy to reflect application updates, regulatory changes, or newly introduced features. Any revisions will be published with an updated "Last Updated" date at the top of this document.
+For detailed information on how Google processes, stores, and protects data collected through its advertising services, please review:
+- [Google Privacy & Terms — Advertising](https://policies.google.com/technologies/ads)
+- [How Google Uses Information from Sites or Apps That Use Our Services](https://policies.google.com/technologies/partner-sites)
+- [Google Privacy Policy](https://policies.google.com/privacy)
 
 ---
 
-### 8. Contact Us
+### 3. Performance & Diagnostics Telemetry
 
-If you have questions, feedback, or inquiries regarding this Privacy Policy or your data privacy in iBorder, please reach out to:
+In addition to advertising services, we collect minimal, aggregated, and non-identifiable telemetry via **Firebase Analytics and Crashlytics** (provided by Google LLC) strictly to diagnose technical faults, measure overall application stability, and optimize app performance:
 
-* **Application:** iBorder
-* **Developer:** Jose Duran, 
-* [Email](mailto:rays-mouse01@icloud.com)
-* **Location:** Mercer Island, WA, USA
+- **Crash Diagnostics & Error Logs:** Technical information regarding crashes, memory panics, operating system errors, and app state at the time of a failure.
+- **Device & System Metadata:** Generic, non-personally identifiable information such as device model (e.g., iPhone 16 Pro, Apple Watch Series 10), operating system version (e.g., iOS 18, watchOS 11), app version, and system language.
+- **Aggregated App Performance:** Anonymous event metrics (such as widget reload performance, whether an onboarding step was completed, or general feature reliability) to identify performance bottlenecks and software bugs.
+
+This diagnostic telemetry is used solely to maintain app stability, prevent crashes, and fix software bugs. We do not use this information to profile individual users or link crash logs to your personal identity.
+
+---
+
+### 4. Third-Party Service Providers
+
+The third-party services involved in the operation of NextUp include:
+
+- **Apple Inc. (App Store, In-App Purchases & iCloud):** Manages licensing, digital downloads, app distribution, in-app purchases, and optional private iCloud data sync under Apple’s standard privacy policies and terms.
+- **Google AdMob (Google LLC):** Serves advertisements in the free version of the app and reports aggregated ad delivery metrics.
+- **Firebase / Google LLC (Analytics & Crashlytics):** Provides technical telemetry, crash reporting, and aggregated performance diagnostics. Data sent to Firebase is governed by Google’s Privacy and Security standards.
+
+---
+
+### 5. Children’s Privacy
+
+NextUp is a general-audience productivity utility rated 4+:
+
+- We do not knowingly collect or solicit personally identifiable information from children under the age of 13 (or applicable local age threshold).
+- All event data and countdown calculations are processed and stored locally on the user's device or in their private iCloud account.
+- If you believe a child has provided us with personal information via customer support correspondence, please contact us immediately, and we will delete such information promptly.
+
+---
+
+### 6. Data Retention and Security
+
+- **Local & iCloud Storage:** Your countdowns, reminders, tags, and widget configurations are stored in your device’s secure sandboxed storage, App Group container, and your private iCloud account. Deleting the application removes your local data.
+- **Advertising & Diagnostic Telemetry:** Data processed by Google AdMob and Firebase is governed and retained in accordance with Google's standard data retention schedules.
+
+---
+
+### 7. Your Rights and Choices
+
+- **Ad Tracking & Personalization:** On iOS 14.5 and later, you can manage whether apps can request permission to track you for targeted advertising under **Settings > Privacy & Security > Tracking**. You can also manage personalized ad preferences in your [Google My Ad Center](https://myadcenter.google.com/).
+- **Ad-Free Experience:** Upgrading to NextUp Pro completely removes all AdMob banner, interstitial, and promotional ad placements.
+- **Telemetry Opt-Out:** You can control diagnostic telemetry reporting through your device’s native iOS privacy settings (under **Settings > Privacy & Security > Analytics & Improvements**).
+- **Calendar Access:** You can grant, modify, or revoke NextUp's access to Apple Calendar at any time via **Settings > Privacy & Security > Calendars > NextUp**.
+- **Notifications:** You can manage or disable reminder notifications at any time via **Settings > Notifications > NextUp**.
+- **iCloud Sync:** You can disable iCloud synchronization for NextUp at any time in your device's Apple Account settings (**Settings > [Your Name] > iCloud**).
+
+---
+
+### 8. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect product updates, new platforms, or regulatory requirements. Any revisions will be reflected with an updated "Last Updated" date at the top of this document. We encourage you to review this policy periodically.
+
+---
+
+### 9. Contact Us
+
+If you have questions, feedback, or concerns regarding this Privacy Policy or NextUp's privacy practices, please contact us at:
+
+Jose Duran  
+📧 [Email](mailto:rays-mouse01@icloud.com)  
+🇺🇸 Mercer Island, WA, USA
