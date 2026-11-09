@@ -21,7 +21,9 @@ Organize every area of your life with dedicated categories and smart icon badges
 - 🎓 Graduation & 🎸 Concert
 - 🏆 Goal & ⚽ Sports
 - 🎮 Games & 💻 Tech
-- 💳 Finance, 🛍️ Shopping & 🌟 Personal Milestones
+- 💳 Finance
+- 🛍️ Shopping
+- 🌟 Personal Milestones
 
 • **Apple Watch Companion App**  
 Check what’s next right from your wrist. View your closest upcoming events sorted automatically by proximity, complete with live second-by-second updates, target dates, and category badges.
