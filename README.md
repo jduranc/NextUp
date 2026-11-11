@@ -30,9 +30,9 @@ Check what’s next right from your wrist. View your closest upcoming events sor
 
 • **Multi-Size Home & Lock Screen Widgets**  
 Bring your countdowns straight to your device screens:
-- **Small Widget (`systemSmall`)**: Spotlight your closest event with vibrant color accents and days remaining.
-- **Medium Widget (`systemMedium`)**: View your top 3 upcoming events side-by-side.
-- **Large Widget (`systemLarge`)**: Features a bold hero countdown banner alongside your next 7 milestones.
+- **Small Widget**: Spotlight your closest event with vibrant color accents and days remaining.
+- **Medium Widget**: View your top 3 upcoming events side-by-side.
+- **Large Widget**: Features a bold hero countdown banner alongside your next 7 milestones.
 - **Lock Screen & StandBy**: Circular, Rectangular, and Inline accessory widgets for instant updates at a glance.
 
 • **One-Tap Apple Calendar Import**  
